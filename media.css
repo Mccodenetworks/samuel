@@ -136,4 +136,16 @@
         padding: 12px 25px;
     }
 
+    .inner-links{
+        margin-bottom: 8px;
+    }
+
+    .inner-txt{
+        font-size: 0.9rem;
+    }
+
+    .sm-sm{
+        font-size: 16px;
+    }
+
 }
