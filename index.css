@@ -65,18 +65,28 @@ a{
     padding: 8px 12px;
     cursor: pointer;
     transition: .3s ease-in-out;
+    position: relative;
 }
 
-a:hover{
-    color: rgb(110, 109, 109);
+a::after{
+    content: '';
+    position: absolute;
+    bottom: -13px;
+    left: 0;
+    width: 100%;
+    height: 3px;
+    background-color: rgb(82, 81, 81);
+    border-radius: 20px;
+    transition: .3s ease-in-out;
+    cursor: pointer;
+    transform: scaleX(0);
+    display: block;
+    
 }
 
-/* hero section style */
-.hero-section{
-    min-height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+a:hover::after,
+a.active::after{
+      transform: scaleX(1.1);
 }
 
 .hero-container{
