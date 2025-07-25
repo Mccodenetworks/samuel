@@ -59,6 +59,7 @@ document.getElementById("btn-Sub").addEventListener("click", function(e) {
     sideBar.style.display = "none";
   }
 
+  // active links
   const links = document.querySelectorAll('.links');
   links.forEach(link =>{
     link.addEventListener('click', () =>{
