@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>nails.com</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/41d51bfab0.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="media.css">
+</head>
+<body>
+
+<div class="nav-container" id="nav-container">
+    <nav class="nav-box">
+    <h1 class="logo">Samuel</h1>
+    <div class="nav-tags">
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#home"></a></li>
+        </ul>
+    </div>
+
+    <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+</nav>
+</div>
+
+<!-- hero section -->
+ <section class="hero-section" id="home">
+    <div class="hero-container">
+        <div class="profile">
+            <img src="profile1.png">
+        </div>
+        <div class="bio">
+             <h5 class="text-h5">Hi, I'm</h5>
+                    <h2 class="name-color">Samuel Amoah-Djan</h2>
+                    <h5 class="text-h5">a passionate Web Developer.</h5>
+
+                    <div class="btn-cta">
+                        <button class="action-btn" onclick="location.href='tel:0555852635'"><i class="fa-solid fa-phone"></i>Call me</button>
+                        <button class="action-btn" onclick="location.href='mailto:samueldjan@gmail.com'"><i class="fa-solid fa-envelope"></i>Mail me</button>
+                    </div>
+        </div> 
+    </div>
+ </section>
+
+
+ <!-- about section -->
+ <section class="about-section" id="about">
+    <h5 class="small-title">Get To Know More</h5>
+    <h1 class="bold-title">About Me</h1>
+
+    <div class="about-container">
+        <div class="about-content">
+            <p class="text-p">I'm a creative Web Developer with a passion
+            for building clean, responsive websites and eye-catching visuals.
+            I’m proficient in HTML, CSS and JavaScript. I bring ideas to life with style and precision.
+            I enjoy learning new technologies, collaborating with others, farming and turning ideas into reality through code.
+            </p>
+
+            <div class="flex-grid">
+                <div class="education">
+                     <img src="resources/Education.png" alt="EducationPic" width="40px" class="pic-icon">
+                                <h4 class="text-h4">Education</h4>
+                                <p class="cert-txt">HND. Computer Networks Mgt</p>
+                                <p class="cert-txt sm">Koforidua Tech. University-Ghana</p>
+
+                </div>
+
+                <div class="experience">
+                    <img src="resources/experience.png" alt="EducationPic" width="40px" class="pic-icon">
+                                <h4 class="text-h4">Experience</h4>
+                                <p class="cert-txt">2+ Years <br> Front-End Development</p>
+                </div>
+
+            </div>
+
+             <div class="skils">
+                <h3 class="skills-txt">My Experience</h3>
+                <div class="skills-flex">
+                    <div class="skills-card">
+                        <img src="resources/check.png" alt="check"width="20px" class="check-icon">
+
+                        <div class="skills-content">
+                             <h4 class="text-h4">HTML</h4>
+                              <p class="sm">Experienced</p>
+                        </div>
+                    </div>
+
+                     <div class="skills-card">
+                        <img src="resources/check.png" alt="check"width="20px" class="check-icon">
+
+                        <div class="skills-content">
+                             <h4 class="text-h4">CSS</h4>
+                              <p class="sm">Experienced</p>
+                        </div>
+                    </div>
+
+                     <div class="skills-card">
+                        <img src="resources/check.png" alt="check"width="20px" class="check-icon">
+
+                        <div class="skills-content">
+                             <h4 class="text-h4">JavaScript</h4>
+                              <p class="sm">Experienced</p>
+                        </div>
+                    </div>
+
+                </div>
+
+                </div>
+
+        </div>
+
+        <img src="aboutPic.jpg" alt="picture" class="about-picture">
+    </div>
+ </section>
+
+
+ <!-- projects section -->
+  <section class="project-section" id="projects">
+     <h5 class="small-title">Browse My Recent</h5>
+    <h1 class="bold-title">Projects</h1>
+
+    <div class="project-container">
+        <div class="project-card">
+            <img src="resources/project2.jpg" alt="picture" width="350px">
+            <h3 class="project-name-text">Organic Website</h3>
+        </div>
+
+        <div class="project-card">
+            <img src="resources/project3.jpg" alt="picture" width="300px">
+            <h3 class="project-name-text">Organic Website</h3>
+        </div>
+
+        <div class="project-card">
+            <img src="resources/food.png" alt="picture" width="350px">
+            <h3 class="project-name-text">Food Website</h3>
+        </div>
+
+    </div>
+  </section>
+
+  <!-- contact section -->
+   <section class="contact-section" id="contact">
+     <h5 class="small-title">Get in Touch</h5>
+    <h1 class="bold-title">Contact Me</h1>
+
+    <div class="contact-container">
+         <div class="links-box">
+            
+            <p class="sm-sm">Feel free to reach out for web projects or just to say hi</p>
+                    <div class="inner-links">
+                        <h5 class="inner-txt"><i class="fa-solid fa-envelope"></i>Email: samueldjan@gmail.com</h5>
+                    </div>
+
+                    <div class="inner-links">
+                        <h5 class="inner-txt"> <i class="fa-brands fa-whatsapp"></i>whatsapp: 0553747768 </h5>
+                    </div>
+
+                    <div class="inner-links">
+                        <h5 class="inner-txt">  <i class="fa-solid fa-phone"></i>Phone: 0553747768 </h5>
+                    </div>
+
+                    <!-- <div class="inner-links">
+                        <h5 class="inner-txt">  <i class="fa-brands fa-linkedin"></i>linkedin </h5>
+                    </div> -->
+
+                </div>
+
+                 <div class="message-box">
+                    <h2 class="message-h2">Send A Email</h2>
+
+                    <form >
+                        <label for="Full Name">Full Name:</label>
+                        <input type="text" placeholder="Full Name here" id="fullname" class="input-filed">
+
+                        <label for="Full Name">Email:</label>
+                        <input type="text" placeholder="Email here" id="email" class="input-filed">
+
+                         <label for="Full Name">Message:</label>
+                        <textarea name="message" id="message" class="message"></textarea>
+
+                        <button type="submit" class="btn-submit" id="btn-Sub">Send Mail</button>
+                    </form>
+                </div>
+
+
+    </div>
+
+    <div class="to-top"  onclick="location.href='#home'">
+        <h2 class="top-text">Top</h2>
+    </div>
+   </section>
+
+   <div class="side-bar" id="side-bar">
+    <ul class="side-nav">
+        <a href="#home" class="side-nav" onclick="hideSideBar()">Home</a>
+        <a href="#about" class="side-nav" onclick="hideSideBar()">About</a>
+        <a href="#projects" class="side-nav" onclick="hideSideBar()">Projects</a>
+        <a href="#contact" class="side-nav" onclick="hideSideBar()">contact</a>
+    </ul>
+   </div>
+
+   <div class="alert">
+    <div class="success-alert" id="success-show">
+        <p class="alert-p">Email sent successfully!</p>
+    </div>
+
+   </div>
+
+   <footer>
+    <div class="footer-links">
+        <p><a href="#home">Home</a></p>
+        <p><a href="#about">About</a></p>
+        <p><a href="#projects">Projects</a></p>
+        <p><a href="#contact">Contact</a></p>
+    </div>
+   </footer>
+
+
+
+
+   <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+</script>
+<script type="text/javascript">
+   (function(){
+      emailjs.init({
+        publicKey: "pWLi8qQUjLs2unBz5",
+      });
+   })();
+</script>
+
+<script src="action.js" type="text/javascript" defer></script> 
+
+    
+</body>
+</html>

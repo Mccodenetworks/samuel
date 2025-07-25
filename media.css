@@ -1,0 +1,139 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@media (max-width:800px){
+    .nav-tags{
+        display: none;
+    }
+
+    .nav-box i{
+    display: block;
+    }
+
+   .hero-container{
+    flex-direction: column;
+    gap: 1rem;
+    }
+
+    .profile{
+    margin-right: 0;
+    }
+
+    .profile img{
+        width: 200px;
+    }
+
+    .name-color{
+        line-height: 2rem;
+        margin-bottom: 6px;
+    }
+
+    .action-btn{
+        padding: 12px 32px;
+    }
+
+    /* .about-container */
+    .about-container{
+        width: 100%;
+        flex-direction: column;
+        /* background-color: rgb(245, 243, 239); */
+        gap: 1rem;
+        padding: 0 5px;
+    }
+
+    .about-content{
+        width: 100%;
+    }
+
+    .flex-grid{
+        grid-template-columns: 1fr;
+    }
+
+    .skills-flex{
+        gap: 10px;
+        flex-wrap: wrap;  
+    }
+
+    .about-picture{
+        width: 300px;
+        display: block;
+        margin-inline: auto;
+    }
+
+    /* project section */
+    .project-container{
+        width: 95%;
+        position: relative;
+         grid-template-columns: 1fr;
+    }
+
+    /* contact-section */
+    .contact-container{
+        flex-direction: column;
+        width: 100%;
+        padding: 0 5px;
+    }
+
+    .links-box{
+        width: 100%;
+    }
+
+    form{
+        width: 100%;
+         padding: 10px;
+    }
+
+    .to-top{
+        display: none;
+    }
+
+    .footer-links{
+        gap: 3px;
+    }
+
+    .bold-title{
+        margin-top: 10px;
+    }
+
+    .text-p{
+        text-align: left;
+    }
+
+    .about-content{
+        width: 100%;
+    }
+
+    .sm-sm{
+        width: 80%;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+}
+
+/* small devices */
+@media(max-width:480px){
+    .logo{
+        font-size: 1.5rem;
+    }
+
+    .name-color{
+        font-size: 1.rem;
+    }
+
+     .about-content{
+        width: 95%;
+    }
+
+    .project-container{
+        width: 85%;
+    }
+
+    .action-btn{
+        padding: 12px 25px;
+    }
+
+}
