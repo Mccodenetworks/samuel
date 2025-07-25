@@ -58,3 +58,11 @@ document.getElementById("btn-Sub").addEventListener("click", function(e) {
      const sideBar = document.getElementById("side-bar")
     sideBar.style.display = "none";
   }
+
+  const links = document.querySelectorAll('.links');
+  links.forEach(link =>{
+    link.addEventListener('click', () =>{
+      document.querySelector('.active')?. classList.remove('active');
+      link.classList.add('active');
+    })
+  })
